@@ -1,0 +1,11 @@
+#mainBanner {
+  color: #FFEBB7;
+}
+
+#mainTitle h2 {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  color: #333333;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: -6%;
+}

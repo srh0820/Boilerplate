@@ -1,0 +1,24 @@
+$maincolor : #FFEBB7;
+$fontColorBlack : #333333;
+$fontColorGray : #989797;
+$fontColorSoftGray : #F2F2F2;
+$fontColorDarkBeige : #B2A569;
+
+#mainBanner{
+    color: $maincolor;
+}
+
+@mixin mainTitle{
+    font-family: "IBM Plex Sans KR", sans-serif;
+    color: $fontColorBlack;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: -6%;
+
+}
+
+#mainTitle{
+    h2{
+        @include mainTitle;
+    }
+}
